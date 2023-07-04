@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  padding: 0px;
+  margin: 0px;
+}
+
+.App {
+  height: 100vh;
+}
+
+.page {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 50px;
+  min-width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dark-mode {
+  background-color: #171717;
+  color: white;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+  outline: none;
+  font-size: 1rem;
+  border-radius: 5px;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.dark-mode-button {
+  border: 2px solid white;
+  color: white;
+  background-color: #171717;
+}
+
+.light-mode-button {
+  border: 2px solid #171717;
+  color: #171717;
+  background-color: white;
+}

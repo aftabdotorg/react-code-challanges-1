@@ -1,0 +1,35 @@
+input,
+label {
+  display: block;
+  margin: 8px auto;
+}
+
+form > h2 {
+  padding: 10px;
+}
+
+input {
+  padding: 8px;
+  width: 300px;
+}
+
+input[type='submit'] {
+  width: 100px;
+}
+
+form {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 500px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+form > button {
+  margin-top: 20px;
+}
